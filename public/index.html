@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+<body>
+      <div class = "header">
+        <nav class="navbar navbar-expand-md fixed-top justify-content-center pb-5">
+        <a class="navbar-brand"><img src="logoaitu.png"></a>
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="about.html"><strong>ABOUT PAGE</strong></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white" href="#contacts"><strong>CONTACTS</strong></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="bordered">
+                        <h2 class="team">Team #1</h2>
+                        <textarea id="team1" rows="2" cols="50" placeholder="Enter the name of players like 'name1, name2, name3' (without brackets)"></textarea> <br>
+                        <input id="score1" rows="4" cols="50" placeholder="Enter the score"></input>
+                    </div>
+                </div>
+                <h1 class="container_vs">VS</h1>
+                <div class="col">
+                    <div class="bordered">
+                        <h2 class="team">Team #2</h2>
+                        <textarea id="team2" rows="2" cols="50" placeholder="Enter the name of players like 'name1, name2, name3' (without brackets)"></textarea> <br>
+                        <input id="score2" rows="4" cols="50" placeholder="Enter the score"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" id="result_btn">Result</button>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <footer>
+      <div id = "contacts" class="footer-content">
+          <h3 id="title" class = "text-center text-uppercase">Contacts</h3>
+          <p><strong>Nurzhan Moldash- 203027@astanait.edu.kz </strong><br>
+              <strong>Yersoltan Sadriden - 203049@astanait.edu.kz</strong><br>
+              <strong>Dariga Tasbolatova - 203017@astanait.edu.kz </strong><br>
+              <strong>Symbat Maidanova - 203046@astanait.edu.kz</strong> </p>
+          <p>Copyright ©2021 Astana IT University | Telecommuncation Systems</p>
+      </div>
+  </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
